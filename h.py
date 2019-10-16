@@ -16,7 +16,7 @@ selection = 'v'
 while selection != 'e':
     #Load downloads file into arrTwo
     path = './../../../Downloads'
-    files = glob.glob/path + "/*.zip")   
+    files = glob.glob(path + "/*.zip")   
     files.sort(key=os.path.getmtime)
     arrTwo = os.listdir(path)
     
